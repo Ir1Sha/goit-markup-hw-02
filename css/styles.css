@@ -84,18 +84,16 @@ body {
 .contacts {
   font-style: normal;
 }
-.contact-email,
-.contact-number {
+.contact-item,
+.contact-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
-.contact-email:hover,
-.contact-email:focus,
-.contact-number:hover,
-.contact-number:focus {
+.contact-item:hover,
+.contact-item:focus {
   color: var(--menu-links-accent);
 }
 
