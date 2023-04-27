@@ -81,9 +81,11 @@ body {
 /* ======Navigation====== */
 
 /* ======Contact information====== */
+.contacts {
+  font-style: normal;
+}
 .contact-email,
 .contact-number {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -104,6 +106,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--brand-light-color);
 }
@@ -153,7 +156,8 @@ body {
 .main-projects-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--brand-dark-color);
@@ -174,6 +178,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--brand-dark-color);
@@ -225,6 +230,7 @@ body {
 
 .portfolio-projects-descr {
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 /* ====== Portfolio  Section ====== */
